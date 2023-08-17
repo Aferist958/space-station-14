@@ -168,3 +168,30 @@
   physicalDesc: reagent-physical-desc-fizzy
   flavor: metallic
   color: "#66538F"
+
+- type: reagent
+  id: Tarragon
+  name: reagent-name-tarragon
+  parent: BaseSoda
+  desc: reagent-desc-tarragon
+  physicalDesc: reagent-physical-desc-fizzy
+  flavor: soda
+  color: "#0cfe3d"
+
+- type: reagent
+  id: Duchesse
+  name: reagent-name-duchesse
+  parent: BaseSoda
+  desc: reagent-desc-duchesse
+  physicalDesc: reagent-physical-desc-fizzy
+  flavor: soda
+  color: "#ffcf7a"
+
+- type: reagent
+  id: Barberry
+  name: reagent-name-barberry
+  parent: BaseSoda
+  desc: reagent-desc-barberry
+  physicalDesc: reagent-physical-desc-fizzy
+  flavor: soda
+  color: "#fd6b00"

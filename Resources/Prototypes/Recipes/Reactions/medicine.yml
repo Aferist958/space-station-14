@@ -410,3 +410,12 @@
       amount: 1
   products:
     Saline: 5
+- type: reaction
+  id: Florid
+  reactants:
+    Inaprovaline:
+      amount: 1
+    Kelotane:
+      amount: 1
+  products:
+   Florid: 2

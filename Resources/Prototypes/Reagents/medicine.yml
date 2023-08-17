@@ -943,3 +943,26 @@
         - !type:ReagentThreshold
           min: 30
         probability: 0.02
+
+- type: reagent
+  id: Florid
+  name: reagent-name-florid
+  group: Medicine
+  desc: reagent-desc-florid
+  physicalDesc: reagent-physical-desc-opaque
+  flavor: medicine
+  color: "#00e5ff"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:TotalDamage
+          max: 50
+        damage:
+          groups:
+            Brute: -1.5
+          types:
+            Heat: -1
+            Shock: -1
+            Cold: -1

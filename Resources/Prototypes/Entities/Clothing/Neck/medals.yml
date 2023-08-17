@@ -86,3 +86,15 @@
     sprite: Clothing/Neck/Medals/clownmedal.rsi
   - type: Clothing
     sprite: Clothing/Neck/Medals/clownmedal.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckChokerwithheart
+  name: choker with heart
+   description: 
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Medals/chokerwithheart.rsi
+  - type: Clothing
+    sprite: Clothing/Neck/Medals/chokerwithheart.rsi
+    

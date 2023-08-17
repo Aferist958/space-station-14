@@ -427,3 +427,60 @@
     sprite: Objects/Consumable/Drinks/pwrgame.rsi
   - type: Item
     sprite: Objects/Consumable/Drinks/pwrgame.rsi
+
+- type: entity
+  parent: DrinkCanBaseFull
+  id: DrinkTarragonCan
+  name: tarragon can
+  description: Just like in childhood!
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Tarragon
+          Quantity: 30
+  - type: Drink
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/tarragoncan.rsi
+  - type: Item
+    sprite: Objects/Consumable/Drinks/tarragoncan.rsi
+
+- type: entity
+  parent: DrinkCanBaseFull
+  id: DrinkDuchesseCan
+  name: duchesse can
+  description: Just like in childhood!
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Duchesse
+          Quantity: 30
+  - type: Drink
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/duchessecan.rsi
+  - type: Item
+    sprite: Objects/Consumable/Drinks/duchessecan.rsi
+
+- type: entity
+  parent: DrinkCanBaseFull
+  id: DrinkBarberryCan
+  name: barberry can
+  description: Just like in childhood!
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Barberry
+          Quantity: 30
+  - type: Drink
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/barberrycan.rsi
+  - type: Item
+    sprite: Objects/Consumable/Drinks/barberrycan.rsi

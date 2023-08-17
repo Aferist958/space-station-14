@@ -2,5 +2,9 @@
   id: BodaInventory
   startingInventory:
     DrinkSodaWaterCan: 10 #typically hacked product. Default product is "soda"
+    DrinkTarragonCan: 10
+    DrinkDuchesseCan: 10
+    DrinkBarberryCan: 10
   emaggedInventory:
     DrinkColaCan: 10
+    
